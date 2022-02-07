@@ -1,14 +1,10 @@
-.root {
+:root {
   --primary-font-family: Roboto, sans-serif;
   --primary-font-color: #212121;
   --secondary-font-family: Raleway, sans-serif;
   --secondary-font-color: #757575;
   --white-font-color: #FFFFFF;
   --accent-color: #2196f3;
-}
-
-body {
-  font-family: var(--primary-font-family);
 }
 
 .list {
@@ -26,7 +22,7 @@ body {
 }
 
 .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .web {
@@ -35,7 +31,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--accent-color);
 }
 .studio-logo {
   font-family: var(--secondary-font-family);
@@ -57,7 +53,7 @@ body {
 
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact-email {
@@ -71,7 +67,7 @@ body {
 
 .contact-email:hover,
 .contact-email:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact-number {
@@ -85,7 +81,7 @@ body {
 
 .contact-number:hover,
 .contact-number:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* ===== END HEADER ===== */
@@ -97,17 +93,18 @@ body {
 }
 
 .hero-name {
+  font-family: var(--primary-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--white-font-color);
 }
 
 .modal-button {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -117,7 +114,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   background-color: #188ce8;
-  color: #ffffff;
+  color: var(--white-font-color);
 }
 
 /* ===== END HERO ===== */
@@ -125,6 +122,7 @@ body {
 /* ===== START FEATURES ===== */
 
 .features-name {
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -133,6 +131,7 @@ body {
   color: var(--primary-font-color);
 }
 .features-description {
+  font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -145,6 +144,7 @@ body {
 /* ===== START ABOUT ===== */
 
 .about-name {
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -171,6 +171,7 @@ body {
 }
 
 .team-name {
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
@@ -180,6 +181,7 @@ body {
 }
 
 .team-position {
+  font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -202,7 +204,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: var(--accent-color);
 }
 .studio {
   font-family: var(--secondary-font-family);
@@ -210,7 +212,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--white-font-color);
 }
 
 .footer-address {
@@ -220,7 +222,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: var(--white-font-color);
 }
 
 .footer-contact {
