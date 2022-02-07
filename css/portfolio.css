@@ -7,6 +7,10 @@
   --accent-color: #2196f3;
 }
 
+body {
+  font-family: var(--primary-font-family);
+}
+
 .list {
   list-style: none;
 }
@@ -43,7 +47,6 @@
 }
 
 .nav-list-link {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,7 +60,6 @@
 }
 
 .contact-email {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -71,7 +73,6 @@
 }
 
 .contact-number {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -93,7 +94,6 @@
 }
 
 .hero-name {
-  font-family: var(--primary-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -104,7 +104,6 @@
 }
 
 .modal-button {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -122,7 +121,6 @@
 /* ===== START FEATURES ===== */
 
 .features-name {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -131,7 +129,6 @@
   color: var(--primary-font-color);
 }
 .features-description {
-  font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -162,7 +159,6 @@
 }
 
 .team-main-name {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -172,7 +168,6 @@
 }
 
 .team-name {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
@@ -182,7 +177,6 @@
 }
 
 .team-position {
-  font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -196,7 +190,6 @@
 /* ===== START PORTFOLIO ===== */
 
 .portfolio-button {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -206,13 +199,25 @@
   color: var(--primary-font-color);
 }
 
+.portfolio-btn.current {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--white-font-color);
+}
+
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--accent-color);
+  
 }
 
 .nav-item {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -221,7 +226,6 @@
 }
 
 .nav-type-list {
-  font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -255,7 +259,7 @@
 }
 
 .footer-address {
-  font-family: var(--primary-font-family);
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -265,7 +269,7 @@
 }
 
 .footer-contact {
-  font-family: var(--primary-font-family);
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
