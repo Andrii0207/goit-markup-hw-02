@@ -141,7 +141,6 @@ body {
 /* ===== START ABOUT ===== */
 
 .about-name {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -200,7 +199,6 @@ body {
 }
 
 .portfolio-btn.current {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
