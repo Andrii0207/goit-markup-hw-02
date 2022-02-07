@@ -43,7 +43,7 @@
 }
 
 .nav-list-link {
-  font-family: var(--primary-font-color);
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,7 +57,7 @@
 }
 
 .contact-email {
-  font-family: var(--primary-font-color);
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -71,7 +71,7 @@
 }
 
 .contact-number {
-  font-family: var(--primary-font-color);
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -162,6 +162,7 @@
 }
 
 .team-main-name {
+  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
