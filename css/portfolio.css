@@ -105,6 +105,7 @@ body {
 }
 
 .modal-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -210,6 +211,7 @@ body {
   background-color: var(--accent-color);
   color: var(--white-font-color);
 }
+
 .portfolio-list .current {
   background-color: var(--accent-color);
   color: var(--white-font-color);
